@@ -80,9 +80,7 @@ const LoginPage = () => {
           >
             Google
           </button>
-          <button className="bg-gray-900 text-white py-2 px-4 rounded mt-2 ml-2 hover:bg-gray-800 dark:bg-gray-600 dark:hover:bg-gray-500">
-          GitHub
-          </button>
+          
         </div>
         <div className="text-center mt-4">
           <p className="text-gray-700 dark:text-gray-300">Don't have an account?</p>
