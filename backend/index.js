@@ -6,7 +6,7 @@ const AuthRouter = require('./Routers/AuthRouter'); // Ensure the correct path
 require('dotenv').config();
 require('./Models/db'); // Assuming this connects to your MongoDB
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8080;
 
 app.get('/ping', (req, res) => {
     res.send('PONG');

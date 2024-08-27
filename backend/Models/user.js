@@ -21,6 +21,6 @@ const UserSchema = new Schema({
     }
 });
 
-const UserModel = mongoose.model('handicraftdatabase', UserSchema);
+const UserModel = mongoose.model('handicraft_db', UserSchema);
 
 module.exports =UserModel;
