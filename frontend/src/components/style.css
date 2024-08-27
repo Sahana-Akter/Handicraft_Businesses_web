@@ -1,0 +1,19 @@
+/* Add this to your CSS file or in a <style> tag */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 1s ease-in;
+  }
+  
